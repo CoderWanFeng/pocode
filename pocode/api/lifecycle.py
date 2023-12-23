@@ -9,6 +9,7 @@
 import functools
 import logging
 
+from pocode.api.color import random_color_print
 
 # 控制日志输出格式和级别
 logging.basicConfig(format='%(levelname)s: %(message)s',
@@ -27,9 +28,9 @@ def deprecated(version=None, demo=None):
         @functools.wraps(func)
         def wrapper(*args, **kwargs):
             if version is not None:
-                logging.warning(f"（{func.__name__}）这个函数已经过期了，请更新到最新的版本，不能低于： {version}")
+                random_color_print(f"（{func.__name__}）这个函数已经过期了，请更新到最新的版本，不能低于： {version}")
             if demo is not None:
-                logging.warning(f"（{func.__name__}）这个函数的最新写法，请见：{demo}")
+                random_color_print(f"（{func.__name__}）这个函数的最新写法，请见：{demo}")
             return func(*args, **kwargs)
 
         return wrapper
