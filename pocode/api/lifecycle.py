@@ -7,6 +7,12 @@
 @本段代码的视频说明     ：
 '''
 import functools
+import logging
+
+
+# 控制日志输出格式和级别
+logging.basicConfig(format='%(levelname)s: %(message)s',
+                    level=logging.INFO)
 
 
 def deprecated(version=None, demo=None):
@@ -16,14 +22,14 @@ def deprecated(version=None, demo=None):
     :param demo: (Optional) 函数的最新写法示例
     :return: 被弃用的函数的包装函数
     """
+
     def decorator(func):
         @functools.wraps(func)
         def wrapper(*args, **kwargs):
-            print(version, demo)
             if version is not None:
-                print(f"这个函数已经过期了，请更新到最新的版本> {version}")
+                logging.warning(f"（{func.__name__}）这个函数已经过期了，请更新到最新的版本，不能低于： {version}")
             if demo is not None:
-                print(f"这个函数的最新写法，请见：{demo}")
+                logging.warning(f"（{func.__name__}）这个函数的最新写法，请见：{demo}")
             return func(*args, **kwargs)
 
         return wrapper

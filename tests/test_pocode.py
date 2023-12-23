@@ -10,6 +10,7 @@
 import unittest
 
 from pocode import *
+from pocode.api.color import random_color_print
 
 
 class TestPip(unittest.TestCase):
@@ -22,5 +23,9 @@ class TestPip(unittest.TestCase):
 
     def test_system(self):
         system('python-office')
+
     def test_deprecated(self):
         pass
+
+    def test_color(self):
+        random_color_print(text="你好/小红书/公众号，都叫：程序员晚枫，www.python-office.com")
