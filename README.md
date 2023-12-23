@@ -31,7 +31,8 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ pocode -U
 
 | 名称         | 说明     | 演示代码                                                                |
 |------------|--------|---------------------------------------------------------------------|
-| count_line | 统计代码行数 | [查看](https://github.com/CoderWanFeng/pocode/demo/1、统计Python代码行数.py) | 
+| count_line | 统计代码行数 | [查看](https://github.com/CoderWanFeng/pocode/blob/main/demo/1%E3%80%81%E7%BB%9F%E8%AE%A1Python%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0.py) | 
+| @deprecated() | 标记函数过期 | [查看](https://github.com/CoderWanFeng/pocode/blob/main/demo/1%E3%80%81%E7%BB%9F%E8%AE%A1Python%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0.py) | 
 
 #### 相关资料：
 
