@@ -2,7 +2,7 @@
 	👉 <a target="_blank" href="https://www.python-office.com/">项目官网：https://www.python-office.com/</a> 👈
 </p>
 <p align="center">
-	👉 <a target="_blank" href="https://python-office-1300615378.cos.ap-chongqing.myqcloud.com/python-office.jpg">本开源项目的交流群</a> 👈
+	👉 <a target="_blank" href="http://www.python4office.cn/wechat-group/">本开源项目的交流群</a> 👈
 </p>
 
 
@@ -50,7 +50,7 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ pocode -U
 ## 📌联系作者
 
 <p align="center" id='开源交流群-banner'>
-<a target="_blank" href='https://python-office-1300615378.cos.ap-chongqing.myqcloud.com/python-office.jpg'>
-<img src="https://python-office-1300615378.cos.ap-chongqing.myqcloud.com/python-office-qr.jpg" width="100%"/>
+<a target="_blank" href='https://cos.python-office.com/group%2Ffree-group.jpg'>
+<img src="https://cos.python-office.com/group/python-office-qr.jpg" width="100%"/>
 </a> 
 </p>
