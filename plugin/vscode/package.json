@@ -1,9 +1,9 @@
 {
-  "name": "code-line-counter",
-  "displayName": "Code Line Counter",
+  "name": "workspace-code-stats",
+  "displayName": "Workspace Code Statistics",
   "description": "Count total lines of code in the currently opened workspace",
   "version": "1.0.0",
-  "publisher": "pocode",
+  "publisher": "wfdev7",
   "engines": {
     "vscode": "^1.74.0"
   },
